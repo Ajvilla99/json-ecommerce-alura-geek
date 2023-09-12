@@ -1,135 +1,170 @@
 {
-  "categories": [
+  "users": [
     {
-      "id": "c516749d-fdc7-46b5-af65-ee1c991af5c5",
-      "name": "Fron End",
-      "description": "Formación Front End de Alura Latam",
-      "color": "#68d1ff",
-      "code": "123151"
-    },
-    {
-      "id": "74b972cf-dcc4-4977-9f7d-41fb792f9958",
-      "name": "Back End",
-      "description": "Formación Back End de Alura Latam",
-      "color": "#00cb8f",
-      "code": "2315637"
-    },
-    {
-      "id": "d55f12e5-66f3-49bc-8f39-b049104fc580",
-      "name": "Innovación y Gestión",
-      "description": "Formación Innovación y Gestión de Alura Latam",
-      "color": "#fe8c2a",
-      "code": "1231ASD14"
+      "name": "admin",
+      "email": "admin@admin.com",
+      "password": "admin123",
+      "id": "3958c717-76c6-4536-ac9f-4f8bb9c75dca"
     }
   ],
-  "uploads": [
+  "categories": [
     {
-      "id": "9aee9408-4d94-4e99-a2cc-6bf810bc99a9",
-      "title": "Cuándo usar let, var y const",
-      "urlVideo": "https://www.youtube.com/embed/PztCEdIJITY?si=kJ9_ooqJJ4cdDuEi",
-      "urlImage": "https://img.youtube.com/vi/PztCEdIJITY/maxresdefault.jpg",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure molestias necessitatibus eum rerum deserunt porro voluptates provident quo placeat quibusdam.",
-      "category": "c516749d-fdc7-46b5-af65-ee1c991af5c5",
-      "author": "Bárbara dos Santos"
+      "name": "star wars",
+      "id": "8e802712-57e1-4e2c-befe-95764e863d83"
     },
     {
-      "id": "f05c19c1-ba51-472c-a84c-015578b4e42c",
-      "title": "¿ Qué es JavaScript ?",
-      "urlVideo": "https://www.youtube.com/embed/GJfOSoaXk4s?si=cpmzy0hq6QPYUQlb",
-      "urlImage": "https://img.youtube.com/vi/GJfOSoaXk4s/maxresdefault.jpg",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure molestias necessitatibus eum rerum deserunt porro voluptates provident quo placeat quibusdam.",
-      "category": "c516749d-fdc7-46b5-af65-ee1c991af5c5",
-      "author": "Gabriela Aguiar"
+      "name": "ropa",
+      "id": "6209dcc7-be7d-4b8b-9095-83ac9042cb34"
     },
     {
-      "id": "d9c667c9-4768-4eea-b287-861bc0020049",
-      "title": "Equipo Front End",
-      "urlVideo": "https://www.youtube.com/embed/rpvrLaBQwgg?si=qKJ30hNwYQokCyhL",
-      "urlImage": "https://img.youtube.com/vi/rpvrLaBQwgg/maxresdefault.jpg",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure molestias necessitatibus eum rerum deserunt porro voluptates provident quo placeat quibusdam.",
-      "category": "c516749d-fdc7-46b5-af65-ee1c991af5c5",
-      "author": "Gabriela Aguiar"
+      "name": "consolas",
+      "id": "1e899142-9429-44a8-9a01-2f6abe7254c9"
+    }
+  ],
+  "products": [
+    {
+      "name": "Camisa manga larga con cuello",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu justo in tellus fermentum feugiat. Maecenas auctor, justo a tincidunt ullamcorper, libero justo tristique quam, non dictum nisi ex et erat.",
+      "url": "https://res.cloudinary.com/dyl3eqv3u/image/upload/v1691950021/img/clothes/xhkyfvxqchqjbbc5jqby.png",
+      "price": "25.00",
+      "category": "6209dcc7-be7d-4b8b-9095-83ac9042cb34",
+      "id": "60c398e0-7db8-4279-ba6d-798e4e6e9832"
     },
     {
-      "id": "a23a327f-3e2c-4277-8d06-ccf8952e0f58",
-      "title": "Aprendiendo a usar figma",
-      "urlVideo": "https://www.youtube.com/embed/UuAX5azcvDQ?si=pDEAxewjoehFcxP1",
-      "urlImage": "https://img.youtube.com/vi/UuAX5azcvDQ/maxresdefault.jpg",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure molestias necessitatibus eum rerum deserunt porro voluptates provident quo placeat quibusdam.",
-      "category": "c516749d-fdc7-46b5-af65-ee1c991af5c5",
-      "author": "Gabriela Aguiar"
+      "name": "Camisa manga larga cuello redondo",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu justo in tellus fermentum feugiat. Maecenas auctor, justo a tincidunt ullamcorper, libero justo tristique quam, non dictum nisi ex et erat.",
+      "url": "https://res.cloudinary.com/dyl3eqv3u/image/upload/v1691950021/img/clothes/b8fwlqavncyugas3fv5g.png",
+      "price": "32.00",
+      "category": "6209dcc7-be7d-4b8b-9095-83ac9042cb34",
+      "id": "1408bc90-e422-474e-8454-d2af3608acf3"
     },
     {
-      "id": "1405dcc6-10d2-41bc-a7e7-3cc4877d5627",
-      "title": "Spring Framework ¿ Qué es ?",
-      "urlVideo": "https://www.youtube.com/embed/t-iqt1b2qqk?si=_MtfIfXcW0AanUB9",
-      "urlImage": "https://img.youtube.com/vi/t-iqt1b2qqk/maxresdefault.jpg",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure molestias necessitatibus eum rerum deserunt porro voluptates provident quo placeat quibusdam.",
-      "category": "74b972cf-dcc4-4977-9f7d-41fb792f9958",
-      "author": "Vinicius Borges"
+      "name": "Sudadera",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu justo in tellus fermentum feugiat. Maecenas auctor, justo a tincidunt ullamcorper, libero justo tristique quam, non dictum nisi ex et erat.",
+      "url": "https://res.cloudinary.com/dyl3eqv3u/image/upload/v1691950021/img/clothes/khpywplsmbbqxhafzrbe.png",
+      "price": "66.00",
+      "category": "6209dcc7-be7d-4b8b-9095-83ac9042cb34",
+      "id": "148b055c-0ba2-44f0-8082-f00f13264eb0"
     },
     {
-      "id": "f778a580-d189-472b-b548-6e2a336d5157",
-      "title": "¿Qué es SQL y NoSQL?",
-      "urlVideo": "https://www.youtube.com/embed/cLLKVd5CNLc?si=sDVkik0SmmJ2QXPI",
-      "urlImage": "https://img.youtube.com/vi/cLLKVd5CNLc/maxresdefault.jpg",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure molestias necessitatibus eum rerum deserunt porro voluptates provident quo placeat quibusdam.",
-      "category": "74b972cf-dcc4-4977-9f7d-41fb792f9958",
-      "author": "Alura Latam"
+      "name": "Camisa manga corta (Negra)",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu justo in tellus fermentum feugiat. Maecenas auctor, justo a tincidunt ullamcorper, libero justo tristique quam, non dictum nisi ex et erat.",
+      "url": "https://res.cloudinary.com/dyl3eqv3u/image/upload/v1691950021/img/clothes/al9bkipmztchxtfnrqyd.png",
+      "price": "22.00",
+      "category": "6209dcc7-be7d-4b8b-9095-83ac9042cb34",
+      "id": "b2f509ae-ef32-4cb9-8ab7-14c9c59fbb1a"
     },
     {
-      "id": "ffb00bdf-eec4-44d3-92ea-fc66669e7777",
-      "title": "Simplificando tu código en Java: Conoce los enum",
-      "urlVideo": "https://www.youtube.com/embed/EoPvlE85XAQ?si=5-fRHfL5tOGX4fSu",
-      "urlImage": "https://img.youtube.com/vi/EoPvlE85XAQ/maxresdefault.jpg",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure molestias necessitatibus eum rerum deserunt porro voluptates provident quo placeat quibusdam.",
-      "category": "74b972cf-dcc4-4977-9f7d-41fb792f9958",
-      "author": "Génesys Rondón"
+      "name": "Camisa manga corta (Blanca)",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu justo in tellus fermentum feugiat. Maecenas auctor, justo a tincidunt ullamcorper, libero justo tristique quam, non dictum nisi ex et erat.",
+      "url": "https://res.cloudinary.com/dyl3eqv3u/image/upload/v1691950021/img/clothes/u5pukj3sajulo4howdpd.png",
+      "price": "22.00",
+      "category": "6209dcc7-be7d-4b8b-9095-83ac9042cb34",
+      "id": "5ce0b7ba-8180-46bf-a75e-b616cfffd1fd"
     },
     {
-      "id": "3578f1bf-d6db-4e1f-af45-13083bb57a48",
-      "title": "Explorando el poder del Back-End en el Desarrollo Web",
-      "urlVideo": "https://www.youtube.com/embed/Z024LSCMqFk?si=A54J_kRHjkCJst2c",
-      "urlImage": "https://img.youtube.com/vi/Z024LSCMqFk/maxresdefault.jpg",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure molestias necessitatibus eum rerum deserunt porro voluptates provident quo placeat quibusdam.",
-      "category": "74b972cf-dcc4-4977-9f7d-41fb792f9958",
-      "author": "Alura Latam"
+      "name": "Darth Vader LEGO",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu justo in tellus fermentum feugiat. Maecenas auctor, justo a tincidunt ullamcorper, libero justo tristique quam, non dictum nisi ex et erat.",
+      "url": "https://res.cloudinary.com/dyl3eqv3u/image/upload/v1691950020/img/starwars/nnh28yf77dnmrwmztzos.png",
+      "price": "33.00",
+      "category": "8e802712-57e1-4e2c-befe-95764e863d83",
+      "id": "42c56f5a-f948-4f35-8531-2de591ae8074"
     },
     {
-      "id": "ec381d11-d50d-40ad-8c83-20e32258bbbb",
-      "title": "¿Qué son las Soft Skills?",
-      "urlVideo": "https://www.youtube.com/embed/vhwspfvI52k?si=4h6cjONJD_Q_NPNI",
-      "urlImage": "https://img.youtube.com/vi/vhwspfvI52k/maxresdefault.jpg",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure molestias necessitatibus eum rerum deserunt porro voluptates provident quo placeat quibusdam.",
-      "category": "d55f12e5-66f3-49bc-8f39-b049104fc580",
-      "author": "Alura Latam"
+      "name": "Stormtrooper",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu justo in tellus fermentum feugiat. Maecenas auctor, justo a tincidunt ullamcorper, libero justo tristique quam, non dictum nisi ex et erat.",
+      "url": "https://res.cloudinary.com/dyl3eqv3u/image/upload/v1691950020/img/starwars/kqistwjo2vnmpp9v7xqt.png",
+      "price": "33.00",
+      "category": "8e802712-57e1-4e2c-befe-95764e863d83",
+      "id": "217ec146-0eb2-44e6-8285-711076b51dfc"
     },
     {
-      "id": "ababbc73-974a-48f1-9d36-b2a7d258df6d",
-      "title": "Las 7 softskills más deseadas",
-      "urlVideo": "https://www.youtube.com/embed/YhR7Zp8NUzE?si=qb6XJIdaIFlU2Q7x",
-      "urlImage": "https://img.youtube.com/vi/YhR7Zp8NUzE/maxresdefault.jpg",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure molestias necessitatibus eum rerum deserunt porro voluptates provident quo placeat quibusdam.",
-      "category": "d55f12e5-66f3-49bc-8f39-b049104fc580",
-      "author": "Gabriela Aguiar"
+      "name": "Anakin Skywalker LEGO",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu justo in tellus fermentum feugiat. Maecenas auctor, justo a tincidunt ullamcorper, libero justo tristique quam, non dictum nisi ex et erat.",
+      "url": "https://res.cloudinary.com/dyl3eqv3u/image/upload/v1691950020/img/starwars/tzf0cujbvqr61ylpujnx.png",
+      "price": "33.00",
+      "category": "8e802712-57e1-4e2c-befe-95764e863d83",
+      "id": "23ad8326-b4a7-48ee-9b8b-d2055d7915d7"
     },
     {
-      "id": "97324ca5-9557-4eef-8ce1-7d70871340af",
-      "title": "¿ Qué son las metodologias ágiles ?",
-      "urlVideo": "https://www.youtube.com/embed/6N3OkLCfK-0?si=c2zNBi1ho5VoSDuC",
-      "urlImage": "https://img.youtube.com/vi/6N3OkLCfK-0/maxresdefault.jpg",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure molestias necessitatibus eum rerum deserunt porro voluptates provident quo placeat quibusdam.",
-      "category": "d55f12e5-66f3-49bc-8f39-b049104fc580",
-      "author": "Alura Latam"
+      "name": "Chewbacca",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu justo in tellus fermentum feugiat. Maecenas auctor, justo a tincidunt ullamcorper, libero justo tristique quam, non dictum nisi ex et erat.",
+      "url": "https://res.cloudinary.com/dyl3eqv3u/image/upload/v1691950019/img/starwars/tmv5ohx8ielniac3nqq9.png",
+      "price": "33.00",
+      "category": "8e802712-57e1-4e2c-befe-95764e863d83",
+      "id": "cebfdb91-45a3-4bcb-90ce-d5e14b4d3d16"
     },
     {
-      "id": "a7ff392c-cd2a-4b2f-9ac6-7bba4733b05e",
-      "title": "¿ Qué es la lógica de programación y cómo aplicarla ?",
-      "urlVideo": "https://www.youtube.com/embed/3W983Q2NzRI?si=q4QSjLeQ5OeylCLy",
-      "urlImage": "https://img.youtube.com/vi/6N3OkLCfK-0/maxresdefault.jpg",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure molestias necessitatibus eum rerum deserunt porro voluptates provident quo placeat quibusdam.",
-      "category": "d55f12e5-66f3-49bc-8f39-b049104fc580",
-      "author": "Alura Latam"
+      "name": "Stormtrooper LEGO",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu justo in tellus fermentum feugiat. Maecenas auctor, justo a tincidunt ullamcorper, libero justo tristique quam, non dictum nisi ex et erat.",
+      "url": "https://res.cloudinary.com/dyl3eqv3u/image/upload/v1691950019/img/starwars/pxyribfagzbzpuduntra.png",
+      "price": "33.00",
+      "category": "8e802712-57e1-4e2c-befe-95764e863d83",
+      "id": "e47c2c75-f2a5-459f-9c52-0dc7139f45f0"
+    },
+    {
+      "name": "R2-D2",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu justo in tellus fermentum feugiat. Maecenas auctor, justo a tincidunt ullamcorper, libero justo tristique quam, non dictum nisi ex et erat.",
+      "url": "https://res.cloudinary.com/dyl3eqv3u/image/upload/v1691950018/img/starwars/u5ygiukhvujn5ebhjx1l.png",
+      "price": "33.00",
+      "category": "8e802712-57e1-4e2c-befe-95764e863d83",
+      "id": "0837f87a-adc0-442b-8630-a47e657924d0"
+    },
+    {
+      "name": "PlayStation5 (PS5)",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu justo in tellus fermentum feugiat. Maecenas auctor, justo a tincidunt ullamcorper, libero justo tristique quam, non dictum nisi ex et erat.",
+      "url": "https://res.cloudinary.com/dyl3eqv3u/image/upload/v1691950024/img/console/jqtrsfzz95ifambkth5k.png",
+      "price": "499.00",
+      "category": "1e899142-9429-44a8-9a01-2f6abe7254c9",
+      "id": "88e14326-341e-447d-a16c-0d93eb693a97"
+    },
+    {
+      "name": "Spider man 2 (PS5)",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu justo in tellus fermentum feugiat. Maecenas auctor, justo a tincidunt ullamcorper, libero justo tristique quam, non dictum nisi ex et erat.",
+      "url": "https://res.cloudinary.com/dyl3eqv3u/image/upload/v1691950023/img/console/slzoz1zwotfdyi9zydoe.png",
+      "price": "55.00",
+      "category": "1e899142-9429-44a8-9a01-2f6abe7254c9",
+      "id": "6e486bfd-ace1-4c08-bc0a-c408e94bc62c"
+    },
+    {
+      "name": "Controller dualsense Xbox series X|S",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu justo in tellus fermentum feugiat. Maecenas auctor, justo a tincidunt ullamcorper, libero justo tristique quam, non dictum nisi ex et erat.",
+      "url": "https://res.cloudinary.com/dyl3eqv3u/image/upload/v1691950023/img/console/fz2aemmvvhnivatb5iwg.png",
+      "price": "33.00",
+      "category": "1e899142-9429-44a8-9a01-2f6abe7254c9",
+      "id": "df59851d-f6f8-48a5-85d3-d1acf709d1bb"
+    },
+    {
+      "name": "PlayStation2 (PS2)",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu justo in tellus fermentum feugiat. Maecenas auctor, justo a tincidunt ullamcorper, libero justo tristique quam, non dictum nisi ex et erat.",
+      "url": "https://res.cloudinary.com/dyl3eqv3u/image/upload/v1691950023/img/console/wyfnq7eoed4iju5mwtw5.png",
+      "price": "120.00",
+      "category": "1e899142-9429-44a8-9a01-2f6abe7254c9",
+      "id": "cca98899-89a6-4c76-b902-71620efbb07e"
+    },
+    {
+      "name": "Xbox series X",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu justo in tellus fermentum feugiat. Maecenas auctor, justo a tincidunt ullamcorper, libero justo tristique quam, non dictum nisi ex et erat.",
+      "url": "https://res.cloudinary.com/dyl3eqv3u/image/upload/v1691950023/img/console/qky1k5wnldqmkt48v6sr.png",
+      "price": "499.00",
+      "category": "1e899142-9429-44a8-9a01-2f6abe7254c9",
+      "id": "f146d379-1a5c-4eb2-9568-2c9e65ce4d28"
+    },
+    {
+      "name": "Nintento Switch",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu justo in tellus fermentum feugiat. Maecenas auctor, justo a tincidunt ullamcorper, libero justo tristique quam, non dictum nisi ex et erat.",
+      "url": "https://res.cloudinary.com/dyl3eqv3u/image/upload/v1691965549/img/console/myxxguo15b9qdqdydq6o.png",
+      "price": "300.00",
+      "category": "1e899142-9429-44a8-9a01-2f6abe7254c9",
+      "id": "60a85c5b-b9ee-4488-9eb0-361eae7f3a99"
+    },
+    {
+      "name": "Camisa polo",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu justo in tellus fermentum feugiat. Maecenas auctor, justo a tincidunt ullamcorper, libero justo tristique quam, non dictum nisi ex et erat.",
+      "url": "https://res.cloudinary.com/dyl3eqv3u/image/upload/v1691963545/img/clothes/q2yxlwfrehtbjl7ozmed.png",
+      "price": "33.00",
+      "category": "6209dcc7-be7d-4b8b-9095-83ac9042cb34",
+      "id": "7d52fc64-f81a-406e-a167-170612ddcd94"
     }
   ]
 }
